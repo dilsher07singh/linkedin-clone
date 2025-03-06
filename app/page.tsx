@@ -1,9 +1,20 @@
+import UserInformation from "@/components/UserInformation";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1>LinkedIn clone</h1>
-    </main>
+    <div>
+      <section>
+        {/* User information */}
+        <UserInformation />
+      </section>
+
+      <section>
+        {/* Post form  */}
+        {/* Post feed  */}
+      </section>
+
+      <section>{/* Widget   */}</section>
+    </div>
   );
 }
