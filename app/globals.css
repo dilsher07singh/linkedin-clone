@@ -120,6 +120,10 @@
   .icon {
     @apply flex flex-col items-center justify-center text-sm font-light;
   }
+
+  .icon svg {
+    @apply fill-white stroke-gray-300;
+  }
 }
 
 @layer base {
